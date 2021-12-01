@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+  <form>
+    <div>
+      <input name="color" type="radio" value="red"> Red
+      <input name="color" type="radio" value="green"> Green
+      <input name="color" type="radio" value="blue"> Blue
+    </div>
+    <div>
+      <label for="browser">Choose your browser from the list:</label>
+      <input list="browsers" name="browser" id="browser">
+
+      <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+      </datalist>
+    </div>
+  </form>
+</body>
+</html>
